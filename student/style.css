@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ body{
+    overflow-x:hidden;
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+} 
+nav{
+    background-color: rgb(10, 116, 246);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: -5.5%;
+    
+}
+nav a {
+    margin: 0px 15px;
+    padding: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+.logo{
+    width: 30px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+}
+
+.card {
+    background: #ffffff;
+    width: 90%;
+    max-width: 70rem;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-rows: 8rem auto 10rem;
+    box-shadow: 0 5px 2.5rem rgb(83, 128, 164);
+    
+}
+.card_body{
+    display: flex;
+    flex-direction: column;
+}
+.field-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.dropdown{
+    width: 30%;
+    height: 20%;
+}
